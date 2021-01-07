@@ -1,10 +1,10 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .viewsets import (
-    ItemVariantViewSet,
+    CategoryViewSet,
     CountryViewSet,
     ItemViewSet,
-    CategoryViewSet,
+    ItemVariantViewSet,
     ReviewViewSet,
 )
 

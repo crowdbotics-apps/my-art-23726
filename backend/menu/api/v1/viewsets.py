@@ -1,10 +1,10 @@
 from rest_framework import authentication
-from menu.models import ItemVariant, Country, Item, Category, Review
+from menu.models import Category, Country, Item, ItemVariant, Review
 from .serializers import (
-    ItemVariantSerializer,
+    CategorySerializer,
     CountrySerializer,
     ItemSerializer,
-    CategorySerializer,
+    ItemVariantSerializer,
     ReviewSerializer,
 )
 from rest_framework import viewsets

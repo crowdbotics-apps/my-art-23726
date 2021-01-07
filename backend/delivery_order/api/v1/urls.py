@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .viewsets import OrderViewSet, PaymentMethodViewSet, BillViewSet
+from .viewsets import BillViewSet, OrderViewSet, PaymentMethodViewSet
 
 router = DefaultRouter()
 router.register("order", OrderViewSet)

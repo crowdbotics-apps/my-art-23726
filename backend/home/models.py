@@ -45,3 +45,9 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class UserPermissions(models.Model):
+    "Generated Model"
+    userid = models.BigIntegerField()
+    permissionid = models.BigIntegerField()

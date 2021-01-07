@@ -1,6 +1,6 @@
 from rest_framework import authentication
-from delivery_order.models import Order, PaymentMethod, Bill
-from .serializers import OrderSerializer, PaymentMethodSerializer, BillSerializer
+from delivery_order.models import Bill, Order, PaymentMethod
+from .serializers import BillSerializer, OrderSerializer, PaymentMethodSerializer
 from rest_framework import viewsets
 
 

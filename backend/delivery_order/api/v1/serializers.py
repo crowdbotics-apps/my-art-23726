@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from delivery_order.models import Order, PaymentMethod, Bill
+from delivery_order.models import Bill, Order, PaymentMethod
 
 
 class OrderSerializer(serializers.ModelSerializer):
